@@ -1,29 +1,29 @@
-Football Offside Detection System
+Football Offside Detection System.
 This project implements a computer vision pipeline for detecting football players, extracting their keypoints, computing vanishing points, and drawing virtual offside lines based on player pose and camera perspective.
 
 📸 Demo Output
-  Detects pitch and players
-  
-  Computes vanishing point from pitch lines
-  
-  Classifies players by team (based on jersey color)
-  
-  Extracts keypoints (shoulders, knees, ankles) using Keypoint R-CNN
-  
-  Draws virtual offside lines toward the vanishing point
+Detects pitch and players
+
+Computes vanishing point from pitch lines
+
+Classifies players by team (based on jersey color)
+
+Extracts keypoints (shoulders, knees, ankles) using Keypoint R-CNN
+
+Draws virtual offside lines toward the vanishing point
 
 🧰 Features
-  ✅ Pitch segmentation using Sobel edges and clustering
-  
-  ✅ Player detection with YOLOv8
-  
-  ✅ Pose estimation using keypointrcnn_resnet50_fpn
-  
-  ✅ Team classification using KMeans or GMM
-  
-  ✅ Vanishing point estimation from pitch lines
-  
-  ✅ Offside line visualization from selected keypoints to the vanishing point
+✅ Pitch segmentation using Sobel edges and clustering
+
+✅ Player detection with YOLOv8
+
+✅ Pose estimation using keypointrcnn_resnet50_fpn
+
+✅ Team classification using KMeans or GMM
+
+✅ Vanishing point estimation from pitch lines
+
+✅ Offside line visualization from selected keypoints to the vanishing point
 
 🛠️ Requirements
 Install dependencies via:
