@@ -1,4 +1,5 @@
 Football Offside Detection System.
+
 This project implements a computer vision pipeline for detecting football players, extracting their keypoints, computing vanishing points, and drawing virtual offside lines based on player pose and camera perspective.
 
 📸 Demo Output
@@ -13,6 +14,7 @@ Extracts keypoints (shoulders, knees, ankles) using Keypoint R-CNN
 Draws virtual offside lines toward the vanishing point
 
 🧰 Features
+
 ✅ Pitch segmentation using Sobel edges and clustering
 
 ✅ Player detection with YOLOv8
@@ -33,20 +35,17 @@ pip install -r requirements.txt
 
 🧾 requirements.txt
 ```
-  arduino
-  Copy
-  Edit
-  pandas
-  opencv-python
-  numpy
-  torch
-  torchvision
-  matplotlib
-  ultralytics
-  scikit-learn
-  pclines
-  scikit-image
-  shapely
+pandas
+opencv-python
+numpy
+torch
+torchvision
+matplotlib
+ultralytics
+scikit-learn
+pclines
+scikit-image
+shapely
 ```
 
 🚀 How to Run
