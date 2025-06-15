@@ -1,0 +1,11 @@
+pandas
+opencv-python
+numpy
+torch
+torchvision
+matplotlib
+ultralytics
+scikit-learn
+pclines
+scikit-image
+shapely
