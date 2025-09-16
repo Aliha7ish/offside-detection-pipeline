@@ -85,10 +85,11 @@ Draw virtual offside lines toward the vanishing point.
 ## 🛠️ Installation  
 Clone the repository and install dependencies:  
 
-```bash
+```
 git clone https://github.com/Aliha7ish/offside-detection-pipeline.git
 cd offside-detection-pipeline
 pip install -r requirements.txt
+```
 
 ---
 
