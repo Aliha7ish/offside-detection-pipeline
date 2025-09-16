@@ -111,9 +111,9 @@ shapely
 
 ## 🚀 How to Run
 
-### 1. Place your match image in the datasets/images/ folder, e.g., liv.jpg.
+1. Place your match image in the datasets/images/ folder, e.g., liv.jpg.
 
-### 2. Run the pipeline steps:
+2. Run the pipeline steps:
 
 ```
 image_path = "datasets/images/liv.jpg"
